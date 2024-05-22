@@ -1,0 +1,19 @@
+﻿  Diem.cpp
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Diem.cpp(66,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Diem.cpp(67,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  MainTamgiac.cpp
+  Tamgiac.cpp
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(70,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(70,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(72,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(72,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(74,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(74,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(84,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(84,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(86,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(86,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(88,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Laptrinhhuongdoituong\Tamgiac\Tamgiac\Tamgiac.cpp(88,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Tamgiac.vcxproj -> C:\Laptrinhhuongdoituong\Tamgiac\x64\Debug\Tamgiac.exe

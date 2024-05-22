@@ -1,0 +1,5 @@
+﻿  CTimespan.cpp
+C:\Laptrinhhuongdoituong\CTimeSpan\CTimespan\CTimespan.cpp(42,6): warning C4101: 'gio': unreferenced local variable
+  main.cpp
+  Generating Code...
+  CTimespan.vcxproj -> C:\Laptrinhhuongdoituong\CTimeSpan\x64\Debug\CTimespan.exe

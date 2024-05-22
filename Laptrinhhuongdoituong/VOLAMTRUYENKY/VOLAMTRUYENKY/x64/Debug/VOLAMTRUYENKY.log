@@ -1,0 +1,27 @@
+﻿  attackable.cpp
+  game.cpp
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(69,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(72,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(75,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(78,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(81,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(84,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(87,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(90,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(93,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(96,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(99,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(102,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(105,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(108,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(111,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(114,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(117,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(120,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(123,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\VOLAMTRUYENKY\game.cpp(126,21): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+  main.cpp
+  monster.cpp
+  player.cpp
+  Generating Code...
+  VOLAMTRUYENKY.vcxproj -> C:\Users\Trần Hoài Phú\OneDrive - Trường ĐH CNTT - University of Information Technology\HKII\Laptrinhhuongdoituong\VOLAMTRUYENKY\x64\Debug\VOLAMTRUYENKY.exe

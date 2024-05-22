@@ -1,0 +1,53 @@
+1
+
+====Code====
+#include<iostream>
+#include<fstream>
+#include<math.h>
+using namespace std;
+void docfile( int a[], int& n, fstream &filein){
+	while (!filein.eof()) {
+		filein >> a[n];
+		char x;
+		filein >> x;
+		n++;
+	}
+}
+void xuatmang(int a[], int n) {
+	for (int i = 0; i < n - 1; i++) {
+		cout << a[i] << " ";
+	}
+}
+int ucln(int x, int y) {
+	while (x != y) {
+		if (x > y) {
+			x = x - y;
+		}
+		else if (x < y) {
+			y = y - x;
+		}
+	}
+	return x;
+}
+int UCLNarr(int a[], int n) {
+	int x = a[0];
+	for (int i = 0; i < n; i++) {
+		x = ucln(x, a[i]);
+	}
+	return x;
+}
+int main(){
+	fstream filein;
+	filein.open("text5.txt", ios_base::in);
+	int a[100];
+	int n = 0;
+	docfile(a, n, filein);
+	xuatmang(a, n);
+	cout << "\nUoc chung cua mang la: " << UCLNarr(a,n);
+	fstream fileout;
+	fileout.open("UCLN.txt", ios_base::out);
+	fileout << UCLNarr(a, n);
+	fileout.close();
+	filein.close();
+	return 0;
+}

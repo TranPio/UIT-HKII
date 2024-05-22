@@ -1,0 +1,55 @@
+1 true
+2 true
+3 true
+5 true
+7 true
+11 true
+13 true
+17 true
+19 true
+
+
+
+====Code====
+#include<iostream>
+#include<fstream>
+#include<math.h>
+using namespace std;
+bool snt(int n)
+{
+	if (n < 0)
+		return 0;
+	for (int i = 2; i <= n - 1; i++)
+	{
+		if (n % i == 0) {
+			return 0;
+		}
+	}
+	return 1;
+}
+int main() {
+	fstream filein, fileout;
+	filein.open("text5.txt", ios_base:: in);
+	if (filein.fail()) {
+		cout << "File khong ton tai.";
+		return 0;
+	}
+	int arr[100];
+	int i = 0;
+	int num = 0;
+	while (!filein.eof()) {
+		filein >> arr[i];
+		i++;
+		num++;
+	}
+	fileout.open("text4.txt", ios_base::out);
+	for (int j = 0; j < num; j++) {
+		if (snt(arr[j])==true) {
+			cout << arr[j] << " ";
+			fileout << arr[j] << " true" << endl;
+		}
+	}
+	filein.close();
+	fileout.close();
+	return 0;
+}

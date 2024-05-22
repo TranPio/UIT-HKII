@@ -1,0 +1,110 @@
+﻿  Lop.cpp
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(8,1): error C2011: 'Sinhvien': 'class' type redefinition
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(17,12): error C2079: 'sv' uses undefined class 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,13): error C2665: 'std::vector<Sinhvien,std::allocator<Sinhvien>>::push_back': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(939,23): message : could be 'void std::vector<Sinhvien,std::allocator<Sinhvien>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,13): message : 'void std::vector<Sinhvien,std::allocator<Sinhvien>>::push_back(_Ty &&)': cannot convert argument 1 from 'int' to '_Ty &&'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,24): message : Reason: cannot convert from 'int' to '_Ty'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,24): message : use of undefined type 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(935,23): message : or       'void std::vector<Sinhvien,std::allocator<Sinhvien>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,13): message : 'void std::vector<Sinhvien,std::allocator<Sinhvien>>::push_back(const _Ty &)': cannot convert argument 1 from 'int' to 'const _Ty &'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,24): message : Reason: cannot convert from 'int' to 'const _Ty'
+          with
+          [
+              _Ty=Sinhvien
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,24): message : use of undefined type 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(19,13): message : while trying to match the argument list '(int)'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.cpp(27,16): error C2027: use of undefined type 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+  MainSV.cpp
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(8,1): error C2011: 'Sinhvien': 'class' type redefinition
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(5,1): error C2011: 'Lop': 'class' type redefinition
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+  Truong.cpp
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(8,1): error C2011: 'Sinhvien': 'class' type redefinition
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Sinhvien.h(7,7): message : see declaration of 'Sinhvien'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(5,1): error C2011: 'Lop': 'class' type redefinition
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(17,7): error C2079: 'lop' uses undefined class 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,14): error C2665: 'std::vector<Lop,std::allocator<Lop>>::push_back': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(939,23): message : could be 'void std::vector<Lop,std::allocator<Lop>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,14): message : 'void std::vector<Lop,std::allocator<Lop>>::push_back(_Ty &&)': cannot convert argument 1 from 'int' to '_Ty &&'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,25): message : Reason: cannot convert from 'int' to '_Ty'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,25): message : use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(935,23): message : or       'void std::vector<Lop,std::allocator<Lop>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,14): message : 'void std::vector<Lop,std::allocator<Lop>>::push_back(const _Ty &)': cannot convert argument 1 from 'int' to 'const _Ty &'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,25): message : Reason: cannot convert from 'int' to 'const _Ty'
+          with
+          [
+              _Ty=Lop
+          ]
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,25): message : use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(19,14): message : while trying to match the argument list '(int)'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(26,17): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(35,37): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(36): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(37,19): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(50,37): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(51): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(52,30): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(58,37): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(59): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Truong.cpp(60,19): error C2027: use of undefined type 'Lop'
+C:\Laptrinhhuongdoituong\SINHVIEN_TRAN HOAI PHU_22521106\SINHVIEN_TRAN HOAI PHU_22521106\Lop.h(4,7): message : see declaration of 'Lop'
+  Generating Code...

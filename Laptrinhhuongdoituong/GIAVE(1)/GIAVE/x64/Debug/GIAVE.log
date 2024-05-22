@@ -1,0 +1,8 @@
+﻿  congvien.cpp
+C:\Laptrinhhuongdoituong\GIAVE(1)\GIAVE\congvien.cpp(47,37): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+  info.cpp
+  main.cpp
+  tickettype1.cpp
+  tickettype2.cpp
+  Generating Code...
+  GIAVE.vcxproj -> C:\Laptrinhhuongdoituong\GIAVE(1)\x64\Debug\GIAVE.exe

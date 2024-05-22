@@ -1,0 +1,20 @@
+Le Tran Kim Long,22520813,27/01/2003
+3
+DS&A-7
+OOP-8
+MA-7.5
+Nguyen Thi Lan Anh,22520013,13/06/2004
+3
+Co so du lieu-8
+Mang may tinh-8
+Triet hoc-9
+Nguyen Van C,22520842,06/01/2004
+3
+He dieu hanh-7
+DS&A-7.6
+Mach so-8
+Le Tran Kim Long,22520813,27/01/2004
+3
+Co so du lieu-8
+Mang may tinh-8
+Triet hoc-9

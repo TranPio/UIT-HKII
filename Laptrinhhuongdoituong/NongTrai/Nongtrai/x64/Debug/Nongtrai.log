@@ -1,0 +1,9 @@
+﻿  Cow.cpp
+  Giasuc.cpp
+  Goat.cpp
+  Nongtrai.cpp
+  Sheep.cpp
+/Nongtrai.cpp(1,1): error C1083: Cannot open source file: 'Nongtrai.cpp': No such file or directory
+  (compiling source file '/Nongtrai.cpp')
+  
+  Generating Code...

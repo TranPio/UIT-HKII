@@ -1,0 +1,154 @@
+Nguyen Thi Lan Anh,22520013,13/06/2004
+3
+Co so du lieu-8
+Mang may tinh-8
+Triet hoc-9
+Nguyen Van C,22520842,06/01/2004
+3
+He dieu hanh-7
+DS&A-7.6
+Mach so-8
+Le Tran Kim Long,22520813,27/01/2004
+3
+Co so du lieu-8
+Mang may tinh-8
+Triet hoc-9
+
+======Code======
+
+#include<iostream>
+#include<fstream>
+#include<string>
+#pragma warning(disable:4996)
+#include<vector>
+using namespace std;
+struct monhoc {
+	string tenmonhoc;
+	float diem;
+};
+struct sinhvien {
+	string hoten, maso, ngaysinh;
+	vector<monhoc> dsmon;
+};
+void docthongtinsv(sinhvien& sv, fstream& filein) {
+	getline(filein, sv.hoten,',');
+	getline(filein, sv.maso, ',');
+	getline(filein, sv.ngaysinh);
+}
+void docthongtinmonhoc(monhoc& mon, fstream& filein) {
+	getline(filein, mon.tenmonhoc, '-');
+	filein >> mon.diem;
+	string temp;
+}
+void docfile(fstream& filein, vector<sinhvien>& dssinhvien) {
+	while (!filein.eof()) {
+		sinhvien sv;
+		docthongtinsv(sv, filein);
+		int soluong;
+		filein >> soluong;
+		string temp;
+		getline(filein, temp);
+		for (int i = 0; i < soluong; i++) {
+			monhoc sudj;
+			docthongtinmonhoc(sudj, filein);
+			getline(filein, temp);
+			sv.dsmon.push_back(sudj);
+		}
+		dssinhvien.push_back(sv);
+	}
+}
+void xuatmonhoc(monhoc mon) {
+	cout << "\nTen mon hoc: " << mon.tenmonhoc;
+	cout << "\nDiem: " << mon.diem;
+}
+void xuatsinhvien(sinhvien sv){
+	cout << "\nHo ten: "<< sv.hoten;
+	cout << "\nID: " << sv.maso;
+	cout << "\nNgay thang nam sinh: " << sv.ngaysinh;
+}
+void xuat(vector<sinhvien> dssinhvien) {
+	cout << "\n=======Danh sach sinh vien=======\n";
+	for (int i = 0; i < dssinhvien.size(); i++) {
+		xuatsinhvien(dssinhvien[i]);
+		cout << "\nSo luong mon hoc: " << dssinhvien[i].dsmon.size();
+		for (int j = 0; j < dssinhvien[i].dsmon.size(); j++) {
+			xuatmonhoc(dssinhvien[i].dsmon[j]);
+		}
+		cout<<endl;
+	}
+}
+void timsinhvien(string &hovaten, vector<sinhvien> dssinhvien) {
+	cout << "\nNhap ho ten can tim: ";
+	getline(cin,hovaten);
+	for (int i = 0; i < dssinhvien.size(); i++) {
+		// dùng hàm so sánh 2 chuỗi không phân biệt chữ hoa chữ thường
+		if (stricmp(dssinhvien[i].hoten.c_str(), hovaten.c_str()) == 0 ){
+			xuatsinhvien(dssinhvien[i]);
+			cout << "\nSo luong mon hoc: " << dssinhvien[i].dsmon.size(); 
+			for (int j = 0; j < dssinhvien[i].dsmon.size(); j++) {
+				xuatmonhoc(dssinhvien[i].dsmon[j]);
+			}
+		}
+	}
+}
+string getnamsinh(string ngaysinh) {
+	string temp;
+	for (int i = ngaysinh.length()-1; i >= 0; i--) {
+		if (ngaysinh[i] >= '0' && ngaysinh[i] <= '9') {
+			temp.insert(temp.begin() + 0, ngaysinh[i]);
+		}
+		else
+			break;
+	}
+	return temp;
+}
+//Hàm ghi thông tin môn học vào file
+void Ghithongtinmonhoc(fstream& fileout, monhoc mon) {
+	fileout << mon.tenmonhoc << "-" << mon.diem << endl;
+}
+// Hàm ghi dữ liệu vào file thông tin sinh viên
+void Ghifile(fstream& fileout, sinhvien sv) {
+	//dòng đầu tiên ghi thông tin sinh viên
+	fileout << sv.hoten << "," << sv.maso << "," << sv.ngaysinh<<endl;
+	//dòng thư 2 ghi số lượng môn học
+	fileout << sv.dsmon.size() << endl;
+	//các dòng tiêp theo ghi danh sách các môn học 
+	for (int i = 0; i < sv.dsmon.size(); i++) {
+		Ghithongtinmonhoc(fileout, sv.dsmon[i]);
+	}
+}
+//Ghi danh sách sinh vien vào 
+void ghidssinhvien(fstream& fileout, vector<sinhvien> dssv,string namsinh) {
+	for (int i = 0; i < dssv.size(); i++) {
+		string temp = getnamsinh(dssv[i].ngaysinh);
+		if (stricmp(temp.c_str(), namsinh.c_str())==0) {
+			Ghifile(fileout,dssv[i]);
+		}
+	}
+}
+int main() {
+	fstream filein;
+	filein.open("text2.txt", ios_base::in);
+	if (filein.fail()) {
+		cout << "File khong ton tai.";
+		return 0;
+	}
+	vector<sinhvien> dssinhvien;
+	// đọc tất cả dữ liệu từ file tẽt2.txt 
+	docfile(filein, dssinhvien);
+	cout << "Doc du lieu thanh cong! ";
+	// Xuất dữ liệu sinh viên ra màn hình
+	//xuat(dssinhvien);
+	//string hoten;
+	//timsinhvien(hoten, dssinhvien);
+	//cout << getnamsinh("27/01/2004");
+	fstream fileout;
+	fileout.open("Namsinh.txt", ios_base::out);
+	string namsinh;
+	cout << "\nNhap nam sinh: ";
+	cin >> namsinh;
+	ghidssinhvien(fileout, dssinhvien, namsinh);
+	fileout.close();
+	filein.close();
+	return 0;
+}

@@ -1,0 +1,46 @@
+So cau trong doan van la: 43
+Cau thu 1 co 7 tu.
+Cau thu 2 co 9 tu.
+Cau thu 3 co 3 tu.
+Cau thu 4 co 7 tu.
+Cau thu 5 co 14 tu.
+Cau thu 6 co 10 tu.
+Cau thu 7 co 12 tu.
+Cau thu 8 co 12 tu.
+Cau thu 9 co 12 tu.
+Cau thu 10 co 10 tu.
+Cau thu 11 co 15 tu.
+Cau thu 12 co 14 tu.
+Cau thu 13 co 13 tu.
+Cau thu 14 co 6 tu.
+Cau thu 15 co 7 tu.
+Cau thu 16 co 13 tu.
+Cau thu 17 co 11 tu.
+Cau thu 18 co 12 tu.
+Cau thu 19 co 12 tu.
+Cau thu 20 co 11 tu.
+Cau thu 21 co 13 tu.
+Cau thu 22 co 11 tu.
+Cau thu 23 co 10 tu.
+Cau thu 24 co 12 tu.
+Cau thu 25 co 11 tu.
+Cau thu 26 co 12 tu.
+Cau thu 27 co 5 tu.
+Cau thu 28 co 7 tu.
+Cau thu 29 co 3 tu.
+Cau thu 30 co 7 tu.
+Cau thu 31 co 8 tu.
+Cau thu 32 co 3 tu.
+Cau thu 33 co 4 tu.
+Cau thu 34 co 7 tu.
+Cau thu 35 co 6 tu.
+Cau thu 36 co 7 tu.
+Cau thu 37 co 3 tu.
+Cau thu 38 co 6 tu.
+Cau thu 39 co 3 tu.
+Cau thu 40 co 7 tu.
+Cau thu 41 co 5 tu.
+Cau thu 42 co 3 tu.
+Cau thu 43 co 4 tu.
+
+Tu 'em' xuat hien nhieu nhat voi 15 lan.

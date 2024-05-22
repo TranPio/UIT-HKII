@@ -1,0 +1,95 @@
+5
+1/2
+5/9
+1/3
+1/1
+1/3
+
+=======Code=======
+#include<iostream>
+#include<fstream>
+#include<math.h>
+using namespace std;
+struct phanso {
+	int tu, mau;
+};
+struct dsphanso {
+	phanso ds[100];
+	int num;
+};
+void doc1phanso(phanso &ps, fstream &filein){
+	filein >> ps.tu;
+	char x;
+	filein >> x;
+	filein >> ps.mau;
+}
+void docfile(dsphanso &ds, fstream& filein) {
+	filein >> ds.num;
+	for (int i = 0; i < ds.num; i++) {
+		doc1phanso(ds.ds[i],filein);
+	}
+}
+void xuatphanso(phanso ps) {
+	cout << ps.tu << "/" << ps.mau << endl;
+}
+void xuatdsphanso(dsphanso ds) {
+	for (int i = 0; i < ds.num; i++) {
+		xuatphanso(ds.ds[i]);
+	}
+}
+int ucln(int x, int y) {
+	while (x != y) {
+		if (x > y) {
+			x = x - y;
+		}
+		else if (x < y) {
+			y = y - x;
+		}
+	}
+	return x;
+} 
+void rutgonps(phanso &ps) {
+	int uc = ucln(ps.tu, ps.mau);
+	ps.tu = ps.tu / uc;
+	ps.mau = ps.mau / uc;
+}
+void rutgondsphanso(dsphanso &ds, fstream &fileout) {
+	for (int i = 0; i < ds.num; i++) {
+		rutgonps(ds.ds[i]);
+	}
+	fileout.open("PhanSo.txt", ios_base::out);
+	fileout << ds.num << endl;
+	for (int i = 0; i < ds.num; i++) {
+		fileout << ds.ds[i].tu << "/" << ds.ds[i].mau << endl;
+	}
+	fileout.close();
+}
+void timpsmax(dsphanso ds, fstream& fileout) {
+	fileout.open("PhanSo1.txt", ios_base::out);
+	float max = ds.ds[0].tu / ds.ds[0].mau;
+	int index;
+	for (int i = 1; i < ds.num; i++) {
+		int temp = ds.ds[i].tu / ds.ds[i].mau;
+		if (max < temp) {
+			max = temp;
+			index = i;
+		}
+	}
+	cout << "\nGia tri max: " << ds.ds[index].tu << "/" << ds.ds[index].mau;
+	fileout << ds.ds[index].tu<<"/"<<ds.ds[index].mau;
+	fileout.close();
+}
+int main(){
+	fstream filein;
+	filein.open("text5.txt", ios_base::in);
+	dsphanso danhsach;
+	docfile(danhsach, filein);
+	xuatdsphanso(danhsach);
+	fstream fileout;
+	rutgondsphanso(danhsach, fileout);
+	cout << "============\n";
+	xuatdsphanso(danhsach);
+	timpsmax(danhsach, fileout);
+	filein.close();
+	return 0;
+}
