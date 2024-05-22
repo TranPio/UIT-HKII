@@ -1,0 +1,43 @@
+﻿  Ao.cpp
+  AoSomi.cpp
+  Aothun.cpp
+  BoSanPham.cpp
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,19): error C2259: 'AoSomi': cannot instantiate abstract class
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\AoSomi.h(6,7): message : see declaration of 'AoSomi'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,19): message : due to following members:
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,19): message : 'int BoSanPham::tongia(void)': is abstract
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(21,14): message : see declaration of 'BoSanPham::tongia'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,9): error C2259: 'AoSomi': cannot instantiate abstract class
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\AoSomi.h(6,7): message : see declaration of 'AoSomi'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,9): message : due to following members:
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(62,9): message : 'int BoSanPham::tongia(void)': is abstract
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(21,14): message : see declaration of 'BoSanPham::tongia'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(64,5): error C2065: 'dsbo': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.cpp(66,1): error C2143: syntax error: missing ';' before '}'
+  KhanQuang.cpp
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\KhanQuang.cpp(21,9): error C2065: 'dongia': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\KhanQuang.cpp(26,42): error C2065: 'mau': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\KhanQuang.cpp(26,57): error C2065: 'dongia': undeclared identifier
+  PhuKien.cpp
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\PhuKien.cpp(22,15): error C2065: 'mau': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\PhuKien.cpp(31,9): error C2065: 'dongia': undeclared identifier
+  Quan.cpp
+  QuanJean.cpp
+  Quanli.cpp
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,33): error C2259: 'BoSanPham': cannot instantiate abstract class
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(6,7): message : see declaration of 'BoSanPham'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,33): message : due to following members:
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,33): message : 'int BoSanPham::tongia(void)': is abstract
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(21,14): message : see declaration of 'BoSanPham::tongia'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,20): error C2259: 'BoSanPham': cannot instantiate abstract class
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(6,7): message : see declaration of 'BoSanPham'
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,20): message : due to following members:
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\Quanli.cpp(19,20): message : 'int BoSanPham::tongia(void)': is abstract
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\BoSanPham.h(21,14): message : see declaration of 'BoSanPham::tongia'
+  QuanShort.cpp
+  QuanTay.cpp
+  VongTay.cpp
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\VongTay.cpp(21,9): error C2065: 'dongia': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\VongTay.cpp(26,42): error C2065: 'mau': undeclared identifier
+C:\Triết\Kinh te chinh tri\22520776 _Pham Gia Linh\22520776 - Pham Gia Linh\22520776 - Pham Gia Linh\VongTay.cpp(26,57): error C2065: 'dongia': undeclared identifier
+  Generating Code...

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoSanPham.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhuKien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AoSomi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aothun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanShort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanTay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanJean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VongTay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KhanQuang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quanli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoSanPham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhuKien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AoSomi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aothun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanShort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanTay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanJean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VongTay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KhanQuang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quanli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+
+	 Thong tin bo quan ao thu 1: 
+ Bo quan ao: Hoanghon Bo hoang hon Nam Size S 221000
+ Ao: AoPhu  Ao so mi Nam Size S Trang 30000 loai 1 
+ Quan: PHUQUAN  Quan tay Nam Size S Xanh 50000 loai 2 
+Phu kien thu 1: Po Vong tay Den 40000 4
+Phu kien thu 2: Linh Khan quang co Xanh 50000 5
