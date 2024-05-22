@@ -1,0 +1,4 @@
+﻿  Thucode.cpp
+C:\Thuc hanh Cau truc du lieu va giai thuat\Thucode\Thucode\Thucode.cpp(97,5): error C2664: 'void printAddedPairs(std::vector<std::pair<__int64,__int64>,std::allocator<std::pair<__int64,__int64>>> &)': cannot convert argument 1 from 'std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>' to 'std::vector<std::pair<__int64,__int64>,std::allocator<std::pair<__int64,__int64>>> &'
+C:\Thuc hanh Cau truc du lieu va giai thuat\Thucode\Thucode\Thucode.cpp(58,6): message : see declaration of 'printAddedPairs'
+C:\Thuc hanh Cau truc du lieu va giai thuat\Thucode\Thucode\Thucode.cpp(97,5): message : while trying to match the argument list '(std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>)'
